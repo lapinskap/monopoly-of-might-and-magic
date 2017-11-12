@@ -1,1 +1,1 @@
-# simpleJsApp
+# simple js app
