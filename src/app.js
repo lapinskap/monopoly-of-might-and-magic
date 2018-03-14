@@ -1,53 +1,104 @@
-console.log('Simple JS app is running!');
-//using Arrays in JSX
-const app = {
-  title: 'Indecision App',
-  subtitle: 'Put your life in the hands of a computer,',
-  subsubtitle:'and get your own list of anything!',
-  options: []
-};
-
-const onFormSubmit = (e) => {
-  e.preventDefault();
-
-  const option = e.target.elements.option.value;
-
-  if (option) {
-    app.options.push(option);
-    e.target.elements.option.value = '';
-    render();
+class IndecisionApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      options: ['Thing one','Thing two','Thing four']
+    };
   }
-};
+  render(){
+    const title = "Indecision";
+    const subtitle = "Put your life in the hands of a computer";
+    return (
+      <div>
+        <Header title={title} subtitle={subtitle} />
+        <Action />
+        <Options options={this.state.options} />
+        <AddOption />
+      </div>
+    )
+  }
+}
+class Header extends React.Component {
+  render(){
 
-const onRemoveAll = () => {
-  app.options = [];
-  render();
-};
+    return(
+      <div>
+        <h1>{this.props.title}</h1>
+        <h2>{this.props.subtitle}</h2>
+      </div>
+    
+    );
+  }
+}
 
-const appRoot = document.getElementById('app');
+class Action extends React.Component {
+  handlePick(){
+    alert('handlePick');
+  }
+  
+  render() {
+    return (
+      <div>
+        <button onClick={this.handlePick}>What should I do?</button>
+      </div>
+    );
+  }
+}
 
-const render = () => {
-  const template = (
-    <div>
-      <h1>{app.title}</h1>
-      {app.subtitle && <p>{app.subtitle}</p>}
-      {app.subsubtitle && <p>{app.subsubtitle}</p>}
-      <p>{app.options.length > 0 ? 'Here are your options' : 'No options'}</p>
-      <p>{app.options.length}</p>
-      <button onClick={onRemoveAll}>Remove All</button>
-      <ol>
-        {
-          app.options.map((option) => <li key={option}>{option}</li>)
+class Options extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleRemoveAll = this.handleRemoveAll.bind(this);
+  }
+  
+  handleRemoveAll() {
+    alert('hallohalo');
+  }
+  
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleRemoveAll}>Remove all</button>
+        { //no need to use {} here vv
+          this.props.options.map((option) => <p key={option}>{option}</p>)
         }
-      </ol>
-      <form onSubmit={onFormSubmit}>
-        <input type="text" name="option" />
-        <button>Add Option</button>
-      </form>
-    </div>
-  );
+        <Option />
+      </div>
+    );
+  }
+}
 
-  ReactDOM.render(template, appRoot);
-};
+class AddOption extends React.Component {
+  handleAddOption(e){
+    e.preventDefault();
 
-render();
+    const option = e.target.elements.option.value.trim();
+    //option is input, we need its value, trim deletes empty spaces
+
+    if(option){
+      alert(option);
+    }
+  }
+  render(){
+    return(
+      <div>
+        <form onSubmit={this.handleAddOption}>
+          <input type="text" name="option"/>
+        </form>
+      </div>
+    );
+  }
+}
+
+class Option extends React.Component {
+  render(){
+    return(
+      <div>
+        Option is here
+      </div>
+    )
+  }
+}
+
+//standard rendering method; variable jsx+where to put this stuff
+ReactDOM.render(<IndecisionApp />, document.getElementById('app')); 

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "babel-preset-env": "^1.5.2",
-    "babel-preset-react": "^6.24.1",
+    "babel-cli": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "global": "^4.3.2",
     "yarn": "^1.2.1"
   },
   "devDependencies": {},
@@ -13,5 +15,5 @@
   },
   "author": "Paulina Lapinska",
   "license": "ISC",
-  "description": ""
+  "description": "My first app"
 }
