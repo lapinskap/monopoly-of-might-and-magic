@@ -7,13 +7,20 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "global": "^4.3.2",
+    "gulp": "^3.9.1",
+    "live-server": "^1.2.0",
     "yarn": "^1.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-autoprefixer": "^5.0.0"
+  },
+ 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "live-server public/",
+    "babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
   },
   "author": "Paulina Lapinska",
   "license": "ISC",
-  "description": "My first app"
+  "description": "My first app",
+  "repository": "https://gitlab.com/mrcherry3475/react-components-1.git"
 }
