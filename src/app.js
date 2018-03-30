@@ -1,6 +1,7 @@
-//import './utils.js'
-import subtract, { square, add } from './utils.js';
-console.log('app.js is running! rotfl');
+//relative path in import
+//import './utils.js'; - all file imported
 
+import { square, add } from './utils.js';
+console.log('app.js is running');
 console.log(square(4));
-console.log(add(4,5));
+console.log(add(100,23));

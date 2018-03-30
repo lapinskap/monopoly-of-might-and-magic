@@ -70,12 +70,13 @@
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_js__ = __webpack_require__(1);
-//import './utils.js'
+//relative path in import
+//import './utils.js'; - all file imported
 
-console.log('app.js is running! rotfl');
 
+console.log('app.js is running');
 console.log(__WEBPACK_IMPORTED_MODULE_0__utils_js__["b" /* square */](4));
-console.log(__WEBPACK_IMPORTED_MODULE_0__utils_js__["a" /* add */](4,5));
+console.log(__WEBPACK_IMPORTED_MODULE_0__utils_js__["a" /* add */](100,23));
 
 /***/ }),
 /* 1 */
@@ -84,14 +85,11 @@ console.log(__WEBPACK_IMPORTED_MODULE_0__utils_js__["a" /* add */](4,5));
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return square; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return add; });
-/* unused harmony export default */
-console.log('utils.js file is running!');
+console.log('utils.js is running!');
 
- const square = (x) => x * x;
- const add = (a,b) => a + b;
- const subtract = (a,b) => a - b;
+const square = (x) => x * x;
+const add = (a, b) => a + b;
 
- 
 
 /***/ })
 /******/ ]);

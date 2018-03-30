@@ -9,6 +9,7 @@
     "global": "^4.3.2",
     "gulp": "^3.9.1",
     "live-server": "^1.2.0",
+    "validator": "8.0.0",
     "webpack": "3.1.0",
     "yarn": "^1.2.1"
   },
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "server": "live-server public/",
-    "webpack":"webpack --watch",
+    "webpack": "webpack --watch",
     "babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
   },
   "author": "Paulina Lapinska",
