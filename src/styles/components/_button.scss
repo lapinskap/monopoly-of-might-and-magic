@@ -25,3 +25,12 @@
     padding: $s-size;
     color: white;
 }
+
+//bem naming convention
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
