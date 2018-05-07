@@ -27,6 +27,20 @@ const book = {
     }
 }
 
-let { name:publisherName = 'Self-Published'} = book;
+let { name:publisherName = 'Self-Published'} = book.publisher;
 
 console.log(publisherName);
+
+//Array destructuring
+
+const address = ['Chodkiewicza 42', 'Wroclaw', 'Dolnoslaskie', '66-400'];
+
+const [ , city, state = 'Gorzow', zip] = address;
+
+console.log(`You are in ${city} ${state}.`);
+
+const item = ['Coffee','$2.00','$2.50','$2.75'];
+
+const [ coffee, , medium , ] = item;
+
+console.log(`${coffee} costs ${medium}.`);
