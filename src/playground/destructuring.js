@@ -35,9 +35,9 @@ console.log(publisherName);
 
 const address = ['Chodkiewicza 42', 'Wroclaw', 'Dolnoslaskie', '66-400'];
 
-const [ , city, state = 'Gorzow', zip] = address;
+const [ , city2, state = 'Gorzow', zip] = address;
 
-console.log(`You are in ${city} ${state}.`);
+console.log(`You are in ${city2} ${state}.`);
 
 const item = ['Coffee','$2.00','$2.50','$2.75'];
 
