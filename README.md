@@ -28,7 +28,14 @@ I started learning React Router to create an application that will have several 
 * JavaScript - Ecmascript 6
 * SASS - SCSS preprocessor
 * React - JavaScript library: 
+
+Title 1               | Title 2               | Title 3               | Title 4
+--------------------- | :-------------------: | :-------------------- | --------------------:
+lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
+lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem
+
+
     * Redux
     * React Router
     * Jest, Enzyme (application testing)
