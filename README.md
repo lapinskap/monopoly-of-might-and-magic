@@ -16,8 +16,13 @@ In this example I got to know the concept of application testing and the first t
 I started learning React Router to create an application that will have several subpages, in contrast to “ToDo” app. Afterwards I started to get acquainted with Redux. 
 
 ## Screenshots
+
 ![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/thumb.jpg)
+
+
 ![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/add.jpg)
+
+
 ![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/stretch.jpg)
 
 ## Technologies
