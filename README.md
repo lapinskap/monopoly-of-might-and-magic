@@ -75,5 +75,7 @@ To-do list:
 Project is: _in progress_, _finished_, _no longer continue_ and why?
 
 ## Inspiration
-Project based on Andrew Mead tutorial which I catched on Udemy.com. 
+Project based on Andrew Mead tutorial which I catched on Udemy.com.
+
+
 original app deploy: https://budget-app.mead.io/
