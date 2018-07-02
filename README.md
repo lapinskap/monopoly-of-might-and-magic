@@ -17,8 +17,6 @@ I started learning React Router to create an application that will have several 
 
 ## Screenshots
 
-[![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://mattermost.com)
-
 ![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/thumb.jpg)
 
 
@@ -53,8 +51,15 @@ $ npm run dev-server
 ```
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
 
 ## Features
 List of features ready and TODOs for future development
