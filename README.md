@@ -17,6 +17,8 @@ I started learning React Router to create an application that will have several 
 
 ## Screenshots
 
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+
 ![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/thumb.jpg)
 
 
@@ -30,9 +32,9 @@ I started learning React Router to create an application that will have several 
 * SASS - SCSS preprocessor
 * Node modules 
 * React - JavaScript library: 
-** Redux
-** React Router
-** Jest, Enzyme (application testing)
+    * Redux
+    * React Router
+    * Jest, Enzyme (application testing)
 
 ## Setup
 To run this project, install it locally using yarn:
