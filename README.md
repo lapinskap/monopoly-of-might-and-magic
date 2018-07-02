@@ -26,12 +26,29 @@ I started learning React Router to create an application that will have several 
 ![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/stretch.jpg)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* JavaScript - Ecmascript 6
+* SASS - SCSS preprocessor
+* Node modules 
+* React - JavaScript library: 
+** Redux
+** React Router
+** Jest, Enzyme (application testing)
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+To run this project, install it locally using yarn:
+
+```
+$ cd ../expensify
+$ yarn install
+$ yarn run dev-server
+```
+You can also use npm:
+
+```
+$ cd ../expensify
+$ npm install
+$ npm run dev-server
+```
 
 ## Code Examples
 Show examples of usage:
