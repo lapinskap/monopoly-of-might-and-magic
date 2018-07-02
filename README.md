@@ -13,10 +13,12 @@ Complex React App based on Andrew Mead tutorials. Main functionality is to store
 Thanks to this project I met the React Router and Redux.
 In this example I got to know the concept of application testing and the first time I turned react app on the production mode.
 
-I started learning React Router to create an application that will have several subpages, in contrast to “ToDo” app. Afterwards I started to get acquainted with Redux. It took me a long time because I had to understand why we need it. It’s about sending props and state between components.
+I started learning React Router to create an application that will have several subpages, in contrast to “ToDo” app. Afterwards I started to get acquainted with Redux. 
 
 ## Screenshots
+![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/thumb.jpg)
 ![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/add.jpg)
+![Example screenshot](https://raw.githubusercontent.com/lapinskap/lapinskap.github.io/master/assets/img/projects/proj-2/stretch.jpg)
 
 ## Technologies
 * Tech 1 - version 1.0
