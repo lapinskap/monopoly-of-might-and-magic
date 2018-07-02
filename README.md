@@ -30,7 +30,7 @@ I started learning React Router to create an application that will have several 
 * Node modules 
 * React - JavaScript library: 
 
-Redux                 | React Router          | Jest, Enzyme (application testing) | 
+Redux                 | React Router          | Jest, Enzyme                       | 
 --------------------- | :-------------------: | :---------------------------------:|
 
 
