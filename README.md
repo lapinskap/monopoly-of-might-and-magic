@@ -28,11 +28,11 @@ I started learning React Router to create an application that will have several 
 ## Technologies
 * JavaScript - Ecmascript 6
 * SASS - SCSS preprocessor
-* Node modules 
 * React - JavaScript library: 
     * Redux
     * React Router
     * Jest, Enzyme (application testing)
+* Node modules 
 
 ## Setup
 To run this project, install it locally using yarn:
