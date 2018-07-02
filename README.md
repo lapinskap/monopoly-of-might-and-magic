@@ -29,16 +29,11 @@ I started learning React Router to create an application that will have several 
 * SASS - SCSS preprocessor
 * React - JavaScript library: 
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | :-------------------: | :-------------------- | --------------------:
+Redux                 | React Router          | Jest, Enzyme (application testing) | 
+--------------------- | :-------------------: | :---------------------------------:|
 
-
-
-    * Redux
-    * React Router
-    * Jest, Enzyme (application testing)
 * Node modules 
-
+|}
 ## Setup
 To run this project, install it locally using yarn:
 
