@@ -57,8 +57,6 @@ $ npm run dev-server
 
 Simple Header component created with fat arrow function - contains React Router
 
-Stateless function component - no class needed
-
 ```javascript
 const Header = () => (
     <header>
@@ -71,6 +69,7 @@ const Header = () => (
 
 export default Header;
 ```
+
 
 > With React’s stateless functional components, each component can be easily tested in isolation. No mocking, state manipulation, special libraries, or tricky test harnesses are needed.
 
