@@ -13,11 +13,11 @@ React App created with Andrew Mead course, contains React Router and Redux
 
 
 ## General info
-Complex React App based on Andrew Mead tutorials. Main functionality is to store expenses and count them.
+Complex React App based on Andrew Mead complex react course. Main functionality is to store expenses and count them.
 Thanks to this project I met the React Router and Redux.
 In this example I got to know the concept of application testing and the first time I turned react app on the production mode.
 
-I started learning React Router to create an application that will have several subpages, in contrast to “ToDo” app. Afterwards I started to get acquainted with Redux. 
+I started learning React Router to create an application that will have several subpages, in contrast to “ToDo” app. Afterwards I started to get acquainted with Redux.
 
 ## Screenshots
 
