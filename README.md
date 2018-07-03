@@ -114,4 +114,4 @@ Project is: _finished_
 Project based on Andrew Mead tutorial which I catched on Udemy.com.
 
 
-original app deploy: https://budget-app.mead.io/
+andrew mead app deploy: https://budget-app.mead.io/
