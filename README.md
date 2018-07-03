@@ -111,7 +111,7 @@ export default (state = {}, action) => {
 Project is: _finished_
 
 ## Inspiration
-Project based on Andrew Mead tutorial which I catched on Udemy.com.
+Project based on Andrew Mead React Course which I catched on Udemy.com.
 
 
 andrew mead app deploy: https://budget-app.mead.io/
