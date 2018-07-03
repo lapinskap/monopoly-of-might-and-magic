@@ -11,6 +11,9 @@ React App created with Andrew Mead course, contains React Router and Redux
 * [Status](#status)
 * [Inspiration](#inspiration)
 
+| Jest, Enzyme                       | 
+| :---------------------------------:|
+
 ## General info
 Complex React App based on Andrew Mead tutorials. Main functionality is to store expenses and count them.
 Thanks to this project I met the React Router and Redux.
