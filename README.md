@@ -42,14 +42,14 @@ Redux                 | React Router          | Jest, Enzyme                    
 To run this project, install it locally using yarn:
 
 ```
-$ cd ../expensify
+$ cd ./expensify
 $ yarn install
 $ yarn run dev-server
 ```
-You can also use npm:
+Alternatively You can use npm:
 
 ```
-$ cd ../expensify
+$ cd ./expensify
 $ npm install
 $ npm run dev-server
 ```
@@ -98,17 +98,17 @@ export default (state = {}, action) => {
 ```
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* React Router
+* Redux
+* Firebase
+* Jest
+* Enzyme
+* SCSS
+* Ecmascript 6
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _finished_
 
 ## Inspiration
 Project based on Andrew Mead tutorial which I catched on Udemy.com.
