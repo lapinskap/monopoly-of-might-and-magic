@@ -17,7 +17,7 @@ Main functionality is to store expenses and count them.
 Thanks to this project I met the React Router and Redux.
 In this example I got to know the concept of application testing and the first time I turned react app on the production mode.
 
-React Router, Redux and Reducers, Jest, Enzyme, Firebase, own Webpack config files, SCSS preprocessor
+React Router, Redux and Reducers, Jest, Enzyme, Firebase, own Webpack config file, SCSS preprocessor
 
 ## Screenshots
 
