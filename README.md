@@ -57,6 +57,7 @@ $ npm run dev-server
 ## Code Examples
 
 Simple Header component created with fat arrow function - contains React Router
+
 | [file path](./src/components/Header.js)     | 
 | :---------------------------------:|
 
@@ -76,6 +77,7 @@ export default Header;
 > With React’s stateless functional components, each component can be easily tested in isolation. No mocking, state manipulation, special libraries, or tricky test harnesses are needed.
 
 ![Reducer](https://redux.js.org/api-reference/combinereducers) example - catches log in and log out actions - contains Redux
+
 | [file path](./src/reducers/auth.js)     | 
 | :---------------------------------:|
 
