@@ -46,7 +46,7 @@ $ cd ./expensify
 $ yarn install
 $ yarn run dev-server
 ```
-Alternatively You can use npm:
+Alternatively you can use npm:
 
 ```
 $ cd ./expensify
