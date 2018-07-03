@@ -31,7 +31,7 @@ React Router, Redux and Reducers, Jest, Enzyme, Firebase, own Webpack config fil
 ## Technologies
 * JavaScript - Ecmascript 6
 * SASS - SCSS preprocessor
-* Node modules 
+* Node modules [(see dependencies in package.json)](./package.json)
 * React - JavaScript library: 
 
 Redux                 | React Router          | Jest, Enzyme                       | 
