@@ -1,3 +1,5 @@
+# Expensify - React App created with Andrew Mead tutorial, contains React Router and Redux
+
 
 ## Table of contents
 * [General info](#general-info)
