@@ -56,6 +56,7 @@ $ npm run dev-server
 ## Code Examples
 
 Simple Header component created with fat arrow function - contains React Router
+
 Stateless function component - no class needed
 
 ```javascript
