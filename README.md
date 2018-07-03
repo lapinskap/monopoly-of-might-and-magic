@@ -55,12 +55,20 @@ $ npm run dev-server
 
 ## Code Examples
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+Simple Header component created with fat arrow function - contains React Router
+Stateless function component - no class needed
+
+```javascript
+const Header = () => (
+    <header>
+        <h1>Expensify</h1>
+        <NavLink to="/" activeClassName="is-active" exact={true}>Dashboard Page </NavLink>
+        <NavLink to="/create" activeClassName="is-active"> Create Expense</NavLink>
+        <NavLink to="/help"  activeClassName="is-active">Help Page</NavLink>
+    </header>
+    );
+
+export default Header;
 ```
 
 
