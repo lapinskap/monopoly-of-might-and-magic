@@ -1,5 +1,5 @@
 # Expensify 
-React App created with Andrew Mead course, contains React Router and Redux
+My first complex application that contains tests, redux and reactor router.
 
 
 ## Table of contents
@@ -111,7 +111,6 @@ export default (state = {}, action) => {
 Project is: _finished_
 
 ## Inspiration
-Project based on Andrew Mead React Course which I catched on Udemy.com.
 
+React App created with Andrew Mead course. 
 
-andrew mead app deploy: https://budget-app.mead.io/
