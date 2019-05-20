@@ -1,5 +1,6 @@
 # the-game
 > React and Ruby on Rails based game
+
 > Here goes my awesome project description!
 
 ## Table of contents
