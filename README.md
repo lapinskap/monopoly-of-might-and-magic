@@ -5,6 +5,7 @@
 
 ## Table of contents
 * [General info](#general-info)
+* [Sources](#sources)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -15,6 +16,10 @@
 
 ## General info
 Add more general information about project. What the purpose of the project is? Motivation?
+
+## Sources
+![Redux documentation](redux.js.org)
+![Pixabay](https://pixabay.com/pl/)
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
