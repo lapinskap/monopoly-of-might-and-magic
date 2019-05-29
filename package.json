@@ -1,7 +1,17 @@
 {
-  "name": "expensify-app",
+  "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Andrew Mead",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
+  },
   "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
@@ -37,7 +47,6 @@
     "webpack": "3.1.0"
   },
   "devDependencies": {
-    "gulp-autoprefixer": "^5.0.0",
     "cross-env": "5.0.5",
     "dotenv": "4.0.0",
     "enzyme": "2.9.1",
@@ -45,19 +54,5 @@
     "jest": "20.0.4",
     "react-test-renderer": "15.6.1",
     "webpack-dev-server": "2.5.1"
-  },
-  "scripts": {
-    "server": "live-server public/",
-    "webpack": "webpack",
-    "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server",
-    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
-    "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
-  },
-  "author": "Paulina Lapinska",
-  "license": "ISC",
-  "description": "React-Router, Redux and another stuff training",
-  "repository": "https://gitlab.com/mrcherry3475/react-components-2.git"
+  }
 }
